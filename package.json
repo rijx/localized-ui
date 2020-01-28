@@ -2,6 +2,7 @@
   "name": "personalized",
   "version": "1.0.0",
   "scripts": {
+    "lint": "eslint \"lib/**/*.js\"",
     "test": "jest"
   },
   "dependencies": {
@@ -12,8 +13,13 @@
     "lodash": "^4.17.15"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "jest": "^25.1.0",
     "mz": "^2.7.0",
+    "prettier": "^1.19.1",
     "require-all": "^3.0.0"
   }
 }
