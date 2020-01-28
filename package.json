@@ -1,6 +1,6 @@
 {
   "name": "localized-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib",
   "files": [
     "lib",
@@ -12,6 +12,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "bignumber.js": "^9.0.0",
     "date-fns": "^2.9.0",
     "date-fns-tz": "^1.0.9",
     "lodash": "^4.17.15"
