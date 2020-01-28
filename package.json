@@ -2,6 +2,11 @@
   "name": "localized-ui",
   "version": "1.0.0",
   "main": "lib",
+  "files": [
+    "lib",
+    "!lib/**/*.test.js",
+    "intlToDateFnLocale"
+  ],
   "scripts": {
     "lint": "eslint \"lib/**/*.js\"",
     "test": "jest"
