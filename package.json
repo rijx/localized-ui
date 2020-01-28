@@ -1,0 +1,17 @@
+{
+  "name": "personalized",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "date-fns": "^2.9.0",
+    "date-fns-tz": "^1.0.9",
+    "intl": "andyearnshaw/Intl.js",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "mz": "^2.7.0"
+  }
+}
