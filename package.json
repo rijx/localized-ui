@@ -1,6 +1,7 @@
 {
-  "name": "personalized",
+  "name": "localized-ui",
   "version": "1.0.0",
+  "main": "lib",
   "scripts": {
     "lint": "eslint \"lib/**/*.js\"",
     "test": "jest"
