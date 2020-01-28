@@ -1,6 +1,6 @@
 {
   "name": "localized-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib",
   "files": [
     "lib",
@@ -14,8 +14,6 @@
   "dependencies": {
     "date-fns": "^2.9.0",
     "date-fns-tz": "^1.0.9",
-    "intl": "intl",
-    "intl-data": "andyearnshaw/Intl.js",
     "lodash": "^4.17.15"
   },
   "devDependencies": {
@@ -23,6 +21,8 @@
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-jest": "^23.6.0",
     "eslint-plugin-prettier": "^3.1.2",
+    "intl": "^1.2.5",
+    "intl-data": "andyearnshaw/Intl.js",
     "jest": "^25.1.0",
     "mz": "^2.7.0",
     "prettier": "^1.19.1",
